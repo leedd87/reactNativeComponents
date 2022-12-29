@@ -10,7 +10,6 @@ export const Navigator = () => {
             screenOptions={{ headerShown: false }}
         >
             <Stack.Screen name="HomeScreen" component={HomeScreen} />
-
         </Stack.Navigator>
     );
 }

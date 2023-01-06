@@ -37,5 +37,10 @@ export const menuItems: MenuItem[] = [
         name: 'Section List',
         icon: 'list-outline',
         component: 'CustomSectionListScreen'
+    },
+    {
+        name: 'Modal Screen',
+        icon: 'copy-outline',
+        component: 'ModalScreen'
     }
 ]

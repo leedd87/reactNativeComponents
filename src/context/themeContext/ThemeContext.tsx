@@ -19,6 +19,7 @@ export const ThemeProvider = ({ children }: any) => {
     }
 
     const setLightTheme = () => {
+        dispatch({ type: 'set_light_theme' })
         console.log('setLightTheme')
     }
     return (

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { FlatList, Text, View } from 'react-native'
 import { styles } from "../theme/appTheme"
 import Icon from 'react-native-vector-icons/Ionicons'
@@ -6,9 +6,11 @@ import { FlatListMenuItem } from '../components/FlatListMenuItem'
 import { menuItems } from '../data/menuItems'
 import { HeaderTitle } from '../components/HeaderTitle'
 import { ItemSeparator } from '../components/ItemSeparator'
+import { ThemeContext } from '../context/themeContext/ThemeContext'
 
 
 export const HomeScreen = () => {
+
 
 
 

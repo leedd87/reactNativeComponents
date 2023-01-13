@@ -19,14 +19,14 @@ export const lightTheme: ThemeState = {
         card: 'green',
         text: 'black',
         border: 'orange',
-        notification: 'teal'
+        notification: 'red'
     }
 }
 
 export const darkTheme: ThemeState = {
     currentTheme: 'dark',
     dark: true,
-    dividerColor: 'green',
+    dividerColor: 'red',
     colors: {
         primary: '#75CEDB',
         background: 'black',
